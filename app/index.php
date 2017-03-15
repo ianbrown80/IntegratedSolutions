@@ -15,9 +15,7 @@
 </head>
 
 <body>
-  <div class="Jumbtron">
-    Hi There
-  </div>
+
 
 
   <!--build:js /assets/scripts/App.js -->
