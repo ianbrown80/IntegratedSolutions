@@ -17,6 +17,19 @@
 <body>
 
 
+<?php
+//$xml=simplexml_load_file("https://api.eveonline.com/char/CharacterSheet.xml.aspx?keyID=3694673&vCode=8KAWbIhjGZaPyBBIn891Iz6wV4RQRVTzkGdHNcD4POKkr44kc0FjctwMQZImlDJU&characterID=94939241") or die("Error: Cannot create object");
+//$result = $xml->xpath("/eveapi/result/rowset[@name='skills']");
+//print_r ($result);
+?>
+
+<?php
+echo "Hi";
+?>
+
+
+
+
 
   <!--build:js /assets/scripts/App.js -->
   <script src="/temp/scripts/app.js"></script>
