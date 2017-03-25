@@ -1,5 +1,5 @@
 <?php
-include "assets/includes/sso/sso_db.php";
+include "assets/includes/universal/db.php";
 $useragent=$_SERVER['HTTP_USER_AGENT'];
 error_log('Getting market orders');
 $market_orders_url="https://api.eveonline.com/corp/MarketOrders.xml.aspx?keyID=3381958&vCode=bLn8qXSupFP4Wf2WcELX0W8j3UAiG7JL6fGf5MW7MjCRRyf9CqnTSBDytVWUSUtN";
