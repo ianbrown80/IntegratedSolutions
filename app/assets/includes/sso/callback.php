@@ -1,7 +1,7 @@
 <?php
 require_once('auth_functions.php');
 require_once('secret.php');
-require_once('sso_db.php');
+require_once('../universal/db.php');
 session_start();
 
 $useragent=$_SERVER['HTTP_USER_AGENT'];
