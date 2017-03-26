@@ -1,10 +1,13 @@
 <?php
 
 class Item {
-  private $price;
-  private $typeName;
-  private $typeID;
-  private $techLevel;
+  private $price = null;
+  private $typeName = null;
+  private $typeID = null;
+  private $techLevel = null;
+  private $blueprint = null;
+  private $groupID = null;
+  private $volume = null;
 
   public function setTypeName($newTypeName) {
     $this->typeName = $newTypeName;
@@ -36,5 +39,29 @@ class Item {
 
   public function getTechLevel() {
     return $this->techLevel;
+  }
+
+  public function setGroupID($newGroupID) {
+    $this->groupID = $newGroupID;
+  }
+
+  public function getGroupID() {
+    return $this->groupID;
+  }
+
+  public function setVolume($newVolume) {
+    $this->volume = $newVolume;
+  }
+
+  public function getVolume() {
+    return $this->volume;
+  }
+
+  public function setBlueprint($newBlueprint) {
+    $this->blueprint = $newBlueprint;
+  }
+
+  public function getBlueprint() {
+    return $this->blueprint;
   }
 }
